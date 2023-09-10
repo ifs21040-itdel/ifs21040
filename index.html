@@ -1,0 +1,118 @@
+<!DOCTYPE html lang="en">
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artikel</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      h1 {
+        color: steelblue;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      img {
+        padding: 10px;
+      }
+
+      h3 {
+        margin: 10px;
+      }
+      .judul {
+        font-weight: bold;
+        font-style: italic;
+      }
+      a {
+        color: black;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+      }
+
+      nav li {
+        text-align: center;
+      }
+
+      footer {
+        margin-top: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Ini Artikel</h1>
+    <nav>
+      <a href="index.html">Home |</a>
+      <a href="artikel1.html">Challanges |</a>
+      <a href="contactus.html">Contact Us |</a>
+      <a href="login.html">Login </a>
+    </nav>
+    <h3>
+      Semoga Anda memperoleh pengetahuaan baru dari artikel ini. Sampai jumpa di
+      kesempatan berikutnya!
+    </h3>
+
+    <main>
+      <h2>Related Post</h2>
+      <nav>
+        <ul>
+          <li>
+            <aside>
+              <p class="judul">Mengenal Bahasa Pemrograman</p>
+              <a href="artikel1.html">
+                <img
+                  src="assets/prog.png"
+                  alt="Basics of programming languages"
+                  width="200px"
+                  height="200px"
+                />
+                <p><i>Basics of programming languages</i></p>
+              </a>
+            </aside>
+          </li>
+          <li>
+            <aside>
+              <p class="judul">Apa itu HTML</p>
+              <a href="artikel2.html">
+                <img
+                  src="assets/html.png"
+                  alt="HTML Programming"
+                  width="200px"
+                  height="200px"
+                />
+                <p><i>HTML Programming</i></p>
+              </a>
+            </aside>
+          </li>
+          <li>
+            <aside>
+              <p class="judul">Mau jadi apa?</p>
+              <a href="artikel3.html">
+                <img
+                  src="assets/carrer.png"
+                  alt="Mau jadi apa"
+                  width="200px"
+                  height="200px"
+                />
+                <p><i>Mau jadi apa</i></p>
+              </a>
+            </aside>
+          </li>
+        </ul>
+      </nav>
+    </main>
+
+    <footer>
+      <p>Praktikum PABWE &copy; <time datetime="2023">2023</time></p>
+    </footer>
+  </body>
+</html>

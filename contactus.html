@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Praktikum PABWE</title>
+    <style>
+      nav{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+
+      <nav>
+        <a href="index.html">Home |</a>
+        <a href="artikel1.html">Challanges |</a>
+        <a href="contactus.html">Contact Us |</a>
+        <a href="login.html">Login </a>
+      </nav>
+    </header>
+
+    <hr />
+
+    <main>
+      <form>
+        <table cellpadding="5">
+          <caption>
+            <h2>Hubungi Kami</h2>
+            <hr />
+          </caption>
+          <tr>
+            <td><label for="name">Nama Lengkap</label></td>
+            <td><input type="text" id="name" name="name" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">Alamat Email</label></td>
+            <td><input type="email" id="email" name="email" /></td>
+          </tr>
+          <tr>
+            <td><label for="kategori">Kategori</label></td>
+            <td>
+              <input type="radio" id="report" name="kategori" value="report" />
+              <label for="report">Laporan</label><br />
+              <input
+                type="radio"
+                id="feedback"
+                name="kategori"
+                value="feedback"
+              />
+              <label for="feedback">Masukkan</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="message">Pesan</label></td>
+            <td>
+              <textarea id="message" name="message" rows="5"></textarea>
+            </td>
+          </tr>
+          <tr align="center">
+            <td colspan="2">
+              <input
+                type="checkbox"
+                id="verification"
+                name="verification"
+                value="1"
+                required
+              />
+              <label for="verification">Konfirmasi Tindakan</label>
+            </td>
+          </tr>
+          <tr align="center">
+            <td colspan="2">
+              <input type="submit" value="Kirim" />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><hr /></td>
+          </tr>
+        </table>
+      </form>
+    </main>
+  </body>
+</html>
